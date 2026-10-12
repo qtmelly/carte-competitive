@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --couleur-body: radial-gradient(50% 50% at 50% 50%, #662573 0%, #310839 100%);
+  --couleur-carte: linear-gradient(180deg, #13124d 27.88%, #532f7f 100%);
+  --couleur-bordure: #946bbd;
+  --couleur-pourcentage: #13124d;
+  --couleur-pourcentage1: #ffffff;
+  --couleur-minibox: #de9f29;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Poppins;
+  background: var(--couleur-body);
+  width: 100%;
+}
+
+.carteprincipale {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background: var(--couleur-carte);
+  border: 7px solid var(--couleur-bordure);
+  border-radius: 24px;
+  gap: 20px;
+}
+
+.texte1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  gap: 26px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.image1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: var(--couleur-minibox);
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 4px;
+  margin: auto;
+  height: 55px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: center;
+}
+
+.lebas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.progression {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.pourcentage {
+  width: 100%;
+  background-color: var(--couleur-pourcentage);
+  border-radius: 24px;
+  padding: 6px;
+}
+
+.pourcentage1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 52%;
+  background-color: white;
+  border-radius: 24px;
+  padding: 2px;
+  color: var(--couleur-pourcentage);
+  font-size: 16px;
+  font-weight: 700;
+}
